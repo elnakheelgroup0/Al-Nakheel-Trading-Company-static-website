@@ -168,6 +168,8 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #bd3e3
   .service-grid, .partner-list, .footer-grid { grid-template-columns: 1fr; }
   .footer-grid { gap: 20px; }
   .contact-card, .contact-form { padding: 24px; }
+  .partner-logo { min-height: 148px; padding: 22px; }
+  .partner-logo img { max-width: 231px; height: 109px; }
 }
 
 @media (max-width: 390px) {
