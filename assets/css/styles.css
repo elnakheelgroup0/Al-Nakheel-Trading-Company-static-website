@@ -115,7 +115,6 @@ button, input, textarea { font: inherit; }
 .services { background: var(--white); }
 .service-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
 .service-card { min-height: 212px; padding: 28px; border: 1px solid var(--slate-300); border-radius: var(--radius); background: var(--white); box-shadow: 0 3px 10px rgba(25, 59, 45, 0.04); }
-.service-number { display: block; color: var(--blue-600); font-size: 0.84rem; font-weight: 700; letter-spacing: 0.08em; }
 .service-card h3 { margin: 28px 0 8px; color: var(--blue-950); font-size: 1.35rem; }
 .service-card p { margin: 0; color: var(--slate-700); }
 
