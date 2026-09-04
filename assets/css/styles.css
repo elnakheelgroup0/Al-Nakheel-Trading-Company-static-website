@@ -165,11 +165,12 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #bd3e3
   .hero-grid, .contact-layout { grid-template-columns: 1fr; gap: 32px; }
   .hero-panel { min-height: 195px; }
   .section { padding: 62px 0; }
-  .service-grid, .partner-list, .footer-grid { grid-template-columns: 1fr; }
+  .service-grid, .footer-grid { grid-template-columns: 1fr; }
   .footer-grid { gap: 20px; }
   .contact-card, .contact-form { padding: 24px; }
-  .partner-logo { min-height: 148px; padding: 22px; }
+  .partner-logo { flex: 0 0 min(78%, 320px); min-height: 148px; padding: 22px; scroll-snap-align: start; }
   .partner-logo img { max-width: 231px; height: 109px; }
+  .partner-list { display: flex; gap: 16px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x mandatory; scrollbar-width: thin; -webkit-overflow-scrolling: touch; }
 }
 
 @media (max-width: 390px) {
@@ -197,6 +198,16 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #bd3e3
 .service-card-media { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
 .service-card-content { padding: 24px 28px 28px; }
 .service-card--image h3 { margin: 16px 0 8px; }
+.service-card--link { display: block; color: inherit; }
+.service-card--link:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.catalog-hero { padding: 62px 0; color: var(--white); background: var(--blue-950); }
+.catalog-hero h1 { margin: 0; font-size: clamp(2rem, 5vw, 3.4rem); line-height: 1.15; }
+.catalog-hero p { max-width: 680px; margin: 16px 0 0; color: #dfe8c4; font-size: 1.05rem; }
+.catalog-content { background: var(--slate-100); }
+.catalog-pages { display: grid; gap: 24px; }
+.catalog-sheet { max-width: 900px; margin: 0 auto; }
+.catalog-sheet img { display: block; width: 100%; height: auto; border-radius: 12px; background: var(--white); box-shadow: var(--shadow); }
+@media (max-width: 760px) { .catalog-hero { padding: 52px 0; } .catalog-pages { gap: 16px; } .catalog-sheet img { border-radius: 8px; } }
 
 @media (max-width: 760px) {
   .service-card-content { padding: 22px 24px 24px; }
