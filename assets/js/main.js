@@ -60,7 +60,7 @@
       var name = form.querySelector("[name='name']").value.trim();
       var phone = form.querySelector("[name='phone']").value.trim();
       var message = form.querySelector("[name='message']").value.trim();
-      var subject = locale === "ar" ? "رسالة جديدة من موقع شركة النخيل" : "New message from Al Nakheel Trading Company website";
+      var subject = locale === "ar" ? "رسالة جديدة من موقع مجموعة النخيل" : "New message from ElNakheel Group website";
       var body = locale === "ar"
         ? "الاسم: " + name + "\nالهاتف: " + phone + "\n\nالرسالة:\n" + message
         : "Name: " + name + "\nPhone: " + phone + "\n\nMessage:\n" + message;
