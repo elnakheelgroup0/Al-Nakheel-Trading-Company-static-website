@@ -24,7 +24,7 @@ A bilingual, two-page-per-language static website for Al Nakheel Trading Company
 
 ## Before publishing
 
-The contact form validates the name, phone, and message in the browser, then opens the visitor's email app using `mailto:info@alnakheeltrading.com`. If the company uses another email address, replace `info@alnakheeltrading.com` in both contact pages before publishing.
+The contact form validates the name, phone, and message in the browser, then opens the visitor's email app using `mailto:info@elnakheelgroup.com`.
 
 The WhatsApp link is already set to `https://wa.me/201200000031` on every page.
 

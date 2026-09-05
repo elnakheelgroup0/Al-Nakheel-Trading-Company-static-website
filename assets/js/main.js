@@ -64,7 +64,7 @@
       var body = locale === "ar"
         ? "الاسم: " + name + "\nالهاتف: " + phone + "\n\nالرسالة:\n" + message
         : "Name: " + name + "\nPhone: " + phone + "\n\nMessage:\n" + message;
-      var recipient = form.getAttribute("data-mailto-recipient") || "info@alnakheeltrading.com";
+      var recipient = form.getAttribute("data-mailto-recipient") || "info@elnakheelgroup.com";
 
       status.textContent = messages.success;
       window.location.href = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);

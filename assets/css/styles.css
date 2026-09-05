@@ -147,7 +147,7 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] { border-color: #bd3e3
 .form-status { min-height: 1.4em; margin: 14px 0 0; color: var(--blue-800); font-size: 0.92rem; font-weight: 700; }
 
 .site-footer { padding: 43px 0 25px; color: #d9e4ea; background: var(--slate-900); }
-.footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1.4fr; gap: 28px; padding-bottom: 34px; }
+.footer-grid { display: grid; grid-template-columns: 1.2fr 1fr 1fr 1.4fr; gap: 28px; padding-bottom: 34px; }
 .footer-title { margin: 0 0 10px; color: var(--white); font-size: 0.95rem; font-weight: 700; }
 .footer-grid p, .footer-grid address { margin: 0; color: #b9c9d2; font-size: 0.9rem; font-style: normal; }
 .footer-grid a { color: var(--white); font-weight: 700; }
